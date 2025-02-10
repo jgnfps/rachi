@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #0F9AFE;
+    --light-color: #FFFFFF;
+    --second-light-color: #EFF8FF;
+    --gray-color: #6E7275;
+    --second-color: #293145;
+}
+
+/*header section start*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 8.5rem;
+}
+
+.btn-nav {
+    height: 1.5rem;
+    display: none;
+}
+
+.logo {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.logo h1 {
+    font-family: 'sora', sans-serif;
+    font-size: 1.5rem;
+    color: var(--second-color);
+}
+
+.nav-bar {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-bar a {
+    font-family: 'inter', sans-serif;
+    font-size: 1.1rem;
+    color: var(--gray-color);
+    transition: all .4s;
+}
+
+.nav-bar a:hover {
+    color: var(--primary-color);
+}
+
+/*header section end*/
+
+/*section container-1 start*/
+
+.container-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    background-color: var(--second-light-color);
+
+}
+
+.right img {
+    width: 500px;
+    height: 500px;
+}
+
+.right {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.container-1 .left p {
+    font-family: 'sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.9rem;
+    color: var(--second-color);
+    margin-bottom: 3rem;
+    margin-top: 7rem;
+}
+
+.container-1 .left .button {
+    font-family: 'inter', sans-serif;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    width: 12.5rem;
+    height: 3.1rem;
+    padding: 1rem 2.1rem 1rem 2.1rem;
+    border: none;
+    border-radius: 3rem;
+    box-shadow: 1px 3px 4px 0px #137DE080;
+    transition: all .4s;
+}
+
+.container-1 .left .button:hover {
+    box-shadow: 3px 4px 12px 0px var(--primary-color);
+}
+
+/*section container-1 end*/
+
+/*section funcionalidades start*/
+
+.funcionalidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.funcionalidades h1 {
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+    font-family: 'sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--second-color);
+}
+
+.funcao {
+    display: flex;
+    gap: 10rem;
+}
+
+.funcao-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.funcao-container h4 {
+    font-family: 'sora', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--second-color);
+}
+
+.funcao-container p {
+    font-family: 'inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray-color);
+    margin-bottom: 6.5rem;
+}
+
+/*section funcionalidades end*/
+
+/*section app start*/
+
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--second-light-color);
+}
+
+.right-app img {
+    height: 400px;
+    width: 400px;
+}
+
+.right-app {
+    margin-top: 2.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.left-app {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left-app h1 {
+    font-family: 'sora', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--second-color);
+}
+
+.left-app p {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: var(--gray-color);
+    font-size: 1rem;
+}
+
+.btn-download {
+    display: flex;
+    gap: 2.2rem;
+    cursor: pointer;
+}
+
+/*section app end*/
+
+/*section planos start*/
+
+.planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
+.planos h1 {
+    font-family: 'sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--second-color);
+}
+
+.planos p {
+    margin-top: 1rem;
+    margin-bottom: 5.5rem;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.55rem;
+    color: var(--gray-color);
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.9rem;
+
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--second-light-color);
+    width: 23rem;
+    height: 29rem;
+    border-radius: 0.5rem
+}
+
+.card-container-dark {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--second-color);
+    width: 23rem;
+    height: 29rem;
+    border-radius: 0.5rem
+}
+
+.card-container-dark h1 {
+    margin-top: 3.5rem;
+    margin-bottom: 0.8rem;
+    color: var(--light-color);
+}
+
+.card-container-dark .btn-card {
+    padding: 4px 38px;
+    background-color: var(--primary-color);
+    width: 164px;
+    height: 27px;
+    box-shadow: 1px 3px 4px 0px #137DE080;
+    border-radius: 3.1rem;
+    font-family: 'inter', sans-serif;
+    color: var(--light-color);
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+.card-container-dark .price p {
+    color: var(--light-color);
+    margin-bottom: 5rem;
+}
+
+.card-container-dark p {
+    color: var(--light-color);
+    margin-bottom: 5rem;
+}
+
+.card-container-dark a {
+    padding: 12px 80px;
+    background-color: var(--primary-color);
+    width: 230px;
+    height: 43px;
+    box-shadow: 1px 3px 4px 0px #137DE080;
+    border-radius: 3.1rem;
+    font-family: 'inter', sans-serif;
+    color: var(--light-color);
+    font-weight: 700;
+    transition: all .4s;
+}
+
+.card-container-dark a:hover {
+    box-shadow: 3px 4px 12px 0px var(--primary-color);
+}
+
+.card-container h1 {
+    margin-top: 3.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 3.6rem;
+}
+
+.price {
+    display: flex;
+    margin-bottom: -4rem;
+}
+
+.price .cifrao {
+    font-family: 'roboto';
+    font-weight: 700;
+    position: relative;
+    font-size: 1.2rem;
+    color: var(--second-color);
+    top: -0.6rem;
+}
+
+.price p {
+    font-family: 'roboto';
+    font-weight: 700;
+    color: var(--second-color);
+    font-size: 3.1rem;
+}
+
+.price .month {
+    font-size: 1.5rem;
+}
+
+.card-container a {
+    padding: 12px 80px;
+    background-color: var(--primary-color);
+    width: 230px;
+    height: 43px;
+    box-shadow: 1px 3px 4px 0px #137DE080;
+    border-radius: 3.1rem;
+    font-family: 'inter', sans-serif;
+    color: var(--light-color);
+    font-weight: 700;
+    transition: all .4s;
+}
+
+.card-container a:hover {
+    box-shadow: 3px 4px 12px 0px var(--primary-color);
+}
+
+/*section planos end*/
+
+/*section contato */
+
+.contato {
+    margin-top: 8.1rem;
+    width: 100%;
+    height: 382px;
+    background: url(/assets/img/computer.png) rgba(41, 49, 69, 0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: 10%;
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contato-container h1 {
+    margin-top: 3.5rem;
+    font-family: 'sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--light-color);
+}
+
+.contato-container p {
+    margin-top: 1rem;
+    margin-bottom: 5.8rem;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: var(--gray-color);
+}
+
+
+
+.input {
+    position: relative;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.input label {
+    position: relative;
+    font-family: 'inter';
+    top: -59px;
+    left: -98px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--light-color);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input label::first-line {
+    top: -80px;
+}
+
+/*section contato end*/
+
+/*section footer start*/
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    font-family: 'inter';
+}
+
+/*section footer end*/
